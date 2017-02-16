@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\алгоритм прима\main.cpp(27): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\алгоритм прима\main.cpp(32): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Компиляция...
+  Prim.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\алгоритм прима\prim.cpp(15): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Алгоритм прима.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Алгоритм прима\Debug\Алгоритм прима.exe
+  Алгоритм прима.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Алгоритм прима\Debug\Алгоритм прима.pdb (Partial PDB)

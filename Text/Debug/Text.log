@@ -1,0 +1,16 @@
+﻿  Actions.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\text\text.h(30): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Компиляция...
+  TextEditor.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\text\text.h(30): warning C4018: <: несоответствие типов со знаком и без знака
+  Position.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\text\text.h(30): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+c:\users\snowbars\documents\visual studio 2015\projects\text\text.h(32): warning C4715: Text::get_symb: значение возвращается не при всех путях выполнения
+c:\users\snowbars\documents\visual studio 2015\projects\text\text.h(32): warning C4715: Text::get_symb: значение возвращается не при всех путях выполнения
+  Пропуск... (изменения не обнаружены)
+  Text.cpp
+  main.cpp
+  Text.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Text\Debug\Text.exe
+  Text.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Text\Debug\Text.pdb (Partial PDB)

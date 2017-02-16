@@ -1,0 +1,23 @@
+﻿  Geometry.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(37): warning C4244: аргумент: преобразование "const base::t" в "int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(38): warning C4244: аргумент: преобразование "const base::t" в "int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(824): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(851): warning C4244: аргумент: преобразование "base::t" в "int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(986): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(1012): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(1028): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\dynarray.h(121): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\dynarray.h(116): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(358): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void DynArray<Point>::push_back(const T &)"
+          with
+          [
+              T=Point
+          ]
+  c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.h(153): note: см. ссылку на создание экземпляров класса шаблон при компиляции "DynArray<Point>"
+  Создание кода...
+c:\users\snowbars\documents\visual studio 2015\projects\задание 6 (геометрия)\geometry.cpp(739): warning C4717: Polygon::include_point: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  Компиляция...
+  main.cpp
+  Создание кода...
+  Задание 6 (геометрия).vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Задание 6 (геометрия)\Debug\Задание 6 (геометрия).exe
+  Задание 6 (геометрия).vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Задание 6 (геометрия)\Debug\Задание 6 (геометрия).pdb (Partial PDB)

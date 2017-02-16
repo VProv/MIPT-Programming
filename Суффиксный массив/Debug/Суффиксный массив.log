@@ -1,0 +1,8 @@
+﻿  SuffArray.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\суффиксный массив\suffarray.cpp(27): warning C4018: <: несоответствие типов со знаком и без знака
+  main.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\суффиксный массив\main.cpp(15): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\суффиксный массив\main.cpp(20): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Суффиксный массив.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Суффиксный массив\Debug\Суффиксный массив.exe
+  Суффиксный массив.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Суффиксный массив\Debug\Суффиксный массив.pdb (Partial PDB)

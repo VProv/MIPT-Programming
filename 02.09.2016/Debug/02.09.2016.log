@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\02.09.2016\main.cpp(52): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\02.09.2016\main.cpp(85): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\02.09.2016\main.cpp(90): warning C4018: <: несоответствие типов со знаком и без знака
+  02.09.2016.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\02.09.2016\Debug\02.09.2016(Topsort, DirectOrders).exe
+  02.09.2016.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\02.09.2016\Debug\02.09.2016(Topsort, DirectOrders).pdb (Partial PDB)

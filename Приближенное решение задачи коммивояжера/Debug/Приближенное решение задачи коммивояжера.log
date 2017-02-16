@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\prim.h(33): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\prim.h(34): warning C4244: аргумент: преобразование "double" в "const int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\prim.h(35): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\hamiltoniancycleapproximationmst.h(17): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\hamiltoniancycleapproximationmst.h(27): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\main.cpp(32): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\приближенное решение задачи коммивояжера\main.cpp(39): warning C4018: <: несоответствие типов со знаком и без знака
+  Приближенное решение задачи коммивояжера.vcxproj -> C:\Users\snowbars\documents\visual studio 2015\Projects\Приближенное решение задачи коммивояжера\Debug\Приближенное решение задачи коммивояжера.exe
+  Приближенное решение задачи коммивояжера.vcxproj -> C:\Users\snowbars\documents\visual studio 2015\Projects\Приближенное решение задачи коммивояжера\Debug\Приближенное решение задачи коммивояжера.pdb (Partial PDB)

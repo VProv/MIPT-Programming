@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\занятие 1\занятие 1\source.cpp(14): error C2440: инициализация: невозможно преобразовать "initializer list" в "Date"
+  c:\users\snowbars\documents\visual studio 2015\projects\занятие 1\занятие 1\source.cpp(14): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+  Date.cpp
+  Calendar.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\занятие 1\занятие 1\calendar.cpp(5): warning C4101: d: неиспользованная локальная переменная
+  Создание кода...
+c:\users\snowbars\documents\visual studio 2015\projects\занятие 1\занятие 1\date.cpp(5): error C4700: использована неинициализированная локальная переменная "d"

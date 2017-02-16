@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Поиск подстроки.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Zfunction.cpp
+  PreFunction.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\поиск подстроки\prefunction.cpp(10): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Компиляция...
+  main1(Строка по префиксу).cpp
+  Создание кода...
+  Пропуск... (изменения не обнаружены)
+  Строка по Z функции.cpp
+  main(Кнут-Прат).cpp
+  Поиск подстроки.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Поиск подстроки\Debug\Пре, Z функции.exe
+  Поиск подстроки.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Поиск подстроки\Debug\Пре, Z функции.pdb (Partial PDB)

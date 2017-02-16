@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\snowbars\documents\visual studio 2015\projects\расстояние хэмминга\hamming.h(63): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\snowbars\documents\visual studio 2015\projects\расстояние хэмминга\hamming.h(119): warning C4018: <: несоответствие типов со знаком и без знака
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(158): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+  c:\users\snowbars\documents\visual studio 2015\projects\расстояние хэмминга\hamming.h(25): note: см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<bool,int>::pair<int,int,void>(std::pair<int,int> &&) noexcept"
+  c:\users\snowbars\documents\visual studio 2015\projects\расстояние хэмминга\hamming.h(25): note: см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<bool,int>::pair<int,int,void>(std::pair<int,int> &&) noexcept"
+  Расстояние Хэмминга.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Расстояние Хэмминга\Debug\Расстояние Хэмминга.exe
+  Расстояние Хэмминга.vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Расстояние Хэмминга\Debug\Расстояние Хэмминга.pdb (Partial PDB)

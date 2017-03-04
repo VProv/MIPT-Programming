@@ -130,3 +130,92 @@ List initialization can suffer from the same problems if the destination type is
 
 11. Copyable and Movable Types
 
+Support copying and/or moving if these operations are clear and meaningful for your type. Otherwise, disable the implicitly   generated special functions that perform copies and moves. 
+
+A copyable type allows its objects to be initialized or assigned from any other object of the same type, without changing the   value of the source. For user-defined types, the copy behavior is defined by the copy constructor and the copy-assignment   operator. string is an example of a copyable type.  
+
+A movable type is one that can be initialized and assigned from temporaries (all copyable types are therefore movable).   std::unique_ptr<int> is an example of a movable but not copyable type. For user-defined types, the move behavior is defined by   the move constructor and the move-assignment operator.  
+
+If you define a copy or move constructor, define the corresponding assignment operator, and vice-versa.   
+If you do not want to support copy/move operations on your type, explicitly disable them using = delete in the public: section:  
+
+12. Structs vs. Classes  
+
+Use a struct only for passive objects that carry data; everything else is a class.  
+
+13. Inheritance(Наследование)  
+
+Composition is often more appropriate than inheritance. When using inheritance, make it public.  
+
+When a sub-class inherits from a base class, it includes the definitions of all the data and operations that the parent base   class defines. In practice, inheritance is used in two major ways in C++: implementation inheritance, in which actual code is   inherited by the child, and interface inheritance, in which only method names are inherited. 
+
+Implementation inheritance reduces code size by re-using the base class code as it specializes an existing type. Because   inheritance is a compile-time declaration, you and the compiler can understand the operation and detect errors. Interface   inheritance can be used to programmatically enforce that a class expose a particular API. Again, the compiler can detect errors,   in this case, when a class does not define a necessary method of the API.   
+
+All inheritance should be public. If you want to do private inheritance, you should be including an instance of the base class   as a member instead.  
+
+Do not overuse implementation inheritance. Composition is often more appropriate. Try to restrict use of inheritance to the   "is-a" case: Bar subclasses Foo if it can reasonably be said that Bar "is a kind of" Foo.  
+
+Make your destructor virtual if necessary. If your class has virtual methods, its destructor should be virtual.  
+
+Limit the use of protected to those member functions that might need to be accessed from subclasses. Note that data members   should be private.  
+
+For clarity, use exactly one of override, final, or virtual when declaring an override.  
+
+14. Multiple Inheritance  
+
+Only very rarely is multiple implementation inheritance actually useful. We allow multiple inheritance only when at most one of   the base classes has an implementation; all other base classes must be pure interface classes tagged with the Interface suffix.  
+
+15. Interfaces  
+
+Classes that satisfy certain conditions are allowed, but not required, to end with an Interface suffix.  
+
+A class is a pure interface if it meets the following requirements:  
+
+    * It has only public pure virtual ("= 0") methods and static methods (but see below for destructor).  
+    * It may not have non-static data members.  
+    * It need not have any constructors defined. If a constructor is provided, it must take no arguments and it must be protected.  
+     *If it is a subclass, it may only be derived from classes that satisfy these conditions and are tagged with the Interface suffix.  
+
+16. Operator Overloading  
+
+Operator keyword  
+Do not create user-defined literals.  
+The operator keyword also permits user code to define new kinds of literals using operator""  
+, and to define type-conversion functions such as operator bool().  
+
+    * Providing a correct, consistent, and unsurprising set of operator overloads requires some care, and failure to do so can lead to confusion and bugs.  
+    * Overuse of operators can lead to obfuscated code, particularly if the overloaded operator's semantics don't follow convention.  
+    * The hazards of function overloading apply just as much to operator overloading, if not more so.  
+    * Operator overloads can fool our intuition into thinking that expensive operations are cheap, built-in operations.  
+    * Finding the call sites for overloaded operators may require a search tool that's aware of C++ syntax, rather than e.g. grep.  
+    * If you get the argument type of an overloaded operator wrong, you may get a different overload rather than a compiler error. For example, foo < bar may do one thing, while &foo < &bar does something totally different.  
+    * Certain operator overloads are inherently hazardous. Overloading unary & can cause the same code to have different meanings depending on whether the overload declaration is visible. Overloads of &&, ||, and , (comma) cannot match the evaluation-order semantics of the built-in operators.  
+    * Operators are often defined outside the class, so there's a risk of different files introducing different definitions of the same operator. If both definitions are linked into the same binary, this results in undefined behavior, which can manifest as subtle run-time bugs.  
+    * User-defined literals allow the creation of new syntactic forms that are unfamiliar even to experienced C++ programmers.  
+
+Define overloaded operators only if their meaning is obvious, unsurprising, and consistent with the corresponding built-in operators.  
+
+Define operators only on your own types. More precisely, define them in the same headers, .cc files, and namespaces as the types they operate on. That way, the operators are available wherever the type is, minimizing the risk of multiple definitions.   
+If you define an operator, also define any related operators that make sense, and make sure they are defined consistently. For example, if you overload <, overload all the comparison operators, and make sure &lt and > never return true for the same arguments.
+
+Don't go out of your way to avoid defining operator overloads. For example, prefer to define ==, =, and &lt &lt, rather than Equals(), CopyFrom(), and PrintTo(). Conversely, don't define operator overloads just because other libraries expect them. For example, if your type doesn't have a natural ordering, but you want to store it in a std::set, use a custom comparator rather than overloading <.  
+
+Type conversion operators are covered in the section on implicit conversions. The = operator is covered in the section on copy constructors. Overloading << for use with streams is covered in the section on streams. See also the rules on function overloading, which apply to operator overloading as well.
+
+17. Access Control
+
+Make data members private, unless they are static const (and follow the naming convention for constants). For technical reasons, we allow data members of a test fixture class to be protected when using Google Test).  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

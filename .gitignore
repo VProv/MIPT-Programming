@@ -1,0 +1,7 @@
+#Visual Studio projects
+*.sdf
+*.sln
+*.vcxproj
+*.filters
+*.vs
+Debug

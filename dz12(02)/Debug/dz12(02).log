@@ -1,4 +1,0 @@
-﻿  main.cpp
-Test.obj : error LNK2005: "int __cdecl set_realization(void)" (?set_realization@@YAHXZ) уже определен в main.obj
-Test.obj : error LNK2005: "int __cdecl vala(int)" (?vala@@YAHH@Z) уже определен в main.obj
-C:\Users\snowbars\Documents\Visual Studio 2015\Projects\dz12(02)\Debug\dz12(02).exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

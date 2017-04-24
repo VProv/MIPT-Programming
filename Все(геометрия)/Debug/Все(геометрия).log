@@ -1,5 +1,0 @@
-﻿  Source.cpp
-c:\users\snowbars\documents\visual studio 2015\projects\все(геометрия)\source.cpp(246): warning C4244: аргумент: преобразование "const base::t" в "int", возможна потеря данных
-c:\users\snowbars\documents\visual studio 2015\projects\все(геометрия)\source.cpp(247): warning C4244: аргумент: преобразование "const base::t" в "int", возможна потеря данных
-  Все(геометрия).vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Все(геометрия)\Debug\Все(геометрия).exe
-  Все(геометрия).vcxproj -> C:\Users\snowbars\Documents\Visual Studio 2015\Projects\Все(геометрия)\Debug\Все(геометрия).pdb (Partial PDB)
